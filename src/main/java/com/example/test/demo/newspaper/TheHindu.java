@@ -1,6 +1,8 @@
 package com.example.test.demo.newspaper;
 
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +16,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import com.example.test.demo.model.News;
+import com.fasterxml.jackson.core.JsonParser;
 
 
 public class TheHindu {
